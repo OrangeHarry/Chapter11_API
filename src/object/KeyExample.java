@@ -2,6 +2,7 @@ package object;
 
 import java.util.HashMap;
 
+
 public class KeyExample {
 	public static void main(String[] args) {
 		//Key 객체를 식별키로 사용해서 String값을 저정하는 HashMap객체 생성

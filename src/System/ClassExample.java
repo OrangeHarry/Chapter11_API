@@ -1,4 +1,4 @@
-package Class;
+package System;
 
 class Car {}
 
@@ -8,7 +8,7 @@ public class ClassExample {
 //		Class clazz = Car.class;
 
 		// 滴锅掳 规过
-		Class clazz = Class.forName("Class.Car");
+		Class clazz = Class.forName("System.Car");
 
 		// 技锅掳 规过
 //		Car car = new Car();

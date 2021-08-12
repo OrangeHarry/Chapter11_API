@@ -1,10 +1,11 @@
 package string;
 
+//바이트배열을 문자열로 변환
 public class ByteToStringExample {
 	public static void main(String[] args) {
 		byte[] bytes = { 72, 101, 108, 108, 111, 32, 74, 97, 118, 97 };
 		
-		String str1 = new String(bytes);
+		String str1 = new String(bytes); //byte는 1바이트 char(문자열)는 2바이트라서 자동형변환이지
 		System.out.println(str1);
 		
                           		//6은 74의 인덱스 위치
@@ -13,4 +14,3 @@ public class ByteToStringExample {
 		System.out.println(str2);
 	}
 }
-//byte는 1바이트 char는 2바이트?? 맞나 확인해보자
